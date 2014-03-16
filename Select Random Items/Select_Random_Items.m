@@ -89,28 +89,27 @@
         }
     }
     
-//    if (1 == selectionLocation)
-//    {
-//        // Loop through the list of input items for the number of items to select. Starting
-//        // at the beginning of the list copy the item from the input to the same index at
-//        // the output list.
-//        for (long i = 0; i < numberToSelect; i++)
-//        {
-//            [returnArray addObject:[input objectAtIndex:i]];
-//        }
-//    }
-//    
-//    if (2 == selectionLocation)
-//    {
-//        // Loop through the list of input items for the number of items to select. Starting
-//        // at the end of the list copy backwards from the input to the the output list.
-//        for (long i = 0; i < numberToSelect; i++)
-//        {
-//            long index = [input count] - i;
-//            [returnArray addObject:[input objectAtIndex:index]];
-//        }
-//    }
+    if (1 == selectionLocation)
+    {
+        // Loop through the list of input items for the number of items to select. Starting
+        // at the beginning of the list copy the item from the input to the same index at
+        // the output list.
+        for (long i = 0; i < numberToSelect; i++)
+        {
+            [returnArray addObject:[input objectAtIndex:i]];
+        }
+    }
     
+    if (2 == selectionLocation)
+    {
+        // Loop through the list of input items for the number of items to select. Starting
+        // at the end of the list copy backwards from the input to the the output list.
+        for (long i = 0; i < numberToSelect; i++)
+        {
+            long index = [input count] - i;
+            [returnArray addObject:[input objectAtIndex:index]];
+        }
+    }
     
     return returnArray;
 }
