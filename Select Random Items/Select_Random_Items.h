@@ -12,4 +12,6 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo;
 
+- (long)convertToNumber:(long)thisPercentage ofTotal:(long)value;
+
 @end
