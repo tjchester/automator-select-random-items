@@ -53,7 +53,7 @@
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-action &quot;/Users/tjchester/Library/Automator/Select Random Items.action&quot;"
+            argument = "-action &quot;${TARGET_BUILD_DIR}/Select Random Items.action&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
