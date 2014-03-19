@@ -110,7 +110,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:683.000000</string>
+				<string>309.500000:791.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -227,7 +227,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:445.000000</string>
+				<string>309.500000:553.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Sort Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -275,13 +275,13 @@
 				<key>AMRequiredResources</key>
 				<array/>
 				<key>ActionBundlePath</key>
-				<string>/Users/tjchester/Library/Developer/Xcode/DerivedData/Select_Random_Items-brkqrfbvgptvvxfhoiqswzbuuhml/Build/Products/Debug/Select Random Items.action</string>
+				<string>/Users/tjchester/Library/Automator/Select Random Items.action</string>
 				<key>ActionName</key>
 				<string>Select Random Items</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>numberToSelect</key>
-					<string>6</string>
+					<string>3</string>
 					<key>selectionLocation</key>
 					<integer>2</integer>
 					<key>selectionMethod</key>
@@ -360,9 +360,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:342.000000</string>
+				<string>309.500000:450.000000</string>
 				<key>nibPath</key>
-				<string>/Users/tjchester/Library/Developer/Xcode/DerivedData/Select_Random_Items-brkqrfbvgptvvxfhoiqswzbuuhml/Build/Products/Debug/Select Random Items.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/Users/tjchester/Library/Automator/Select Random Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -440,7 +440,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:191.000000</string>
+				<string>309.500000:299.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/View Results.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -450,26 +450,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>6CCB6603-63C5-48A6-82BC-8F55A57B45A9</key>
+		<key>376020F1-BA5A-4825-AC42-51F272475844</key>
+		<dict>
+			<key>from</key>
+			<string>627EC09D-799A-48E0-9F1B-6E73FA845B08 - 627EC09D-799A-48E0-9F1B-6E73FA845B08</string>
+			<key>to</key>
+			<string>08C0CAE4-ECB7-4B15-898F-32A43F6F5F4B - 08C0CAE4-ECB7-4B15-898F-32A43F6F5F4B</string>
+		</dict>
+		<key>ED65E605-7804-4F6F-AD11-76DFDF2DE781</key>
 		<dict>
 			<key>from</key>
 			<string>CDB61925-8B9C-4FA1-9D3D-1729E9EA0641 - CDB61925-8B9C-4FA1-9D3D-1729E9EA0641</string>
 			<key>to</key>
 			<string>2F22C12A-FC77-420E-93CF-FF92E6CE665D - 2F22C12A-FC77-420E-93CF-FF92E6CE665D</string>
 		</dict>
-		<key>F02B1BB6-A71D-469E-952F-02082827C8A5</key>
+		<key>EFDA75A4-1D6C-42F1-87A2-B6589C01129D</key>
 		<dict>
 			<key>from</key>
 			<string>08C0CAE4-ECB7-4B15-898F-32A43F6F5F4B - 08C0CAE4-ECB7-4B15-898F-32A43F6F5F4B</string>
 			<key>to</key>
 			<string>CDB61925-8B9C-4FA1-9D3D-1729E9EA0641 - CDB61925-8B9C-4FA1-9D3D-1729E9EA0641</string>
-		</dict>
-		<key>F64EBFC8-6CCD-42D6-8E46-C23DA35610E3</key>
-		<dict>
-			<key>from</key>
-			<string>627EC09D-799A-48E0-9F1B-6E73FA845B08 - 627EC09D-799A-48E0-9F1B-6E73FA845B08</string>
-			<key>to</key>
-			<string>08C0CAE4-ECB7-4B15-898F-32A43F6F5F4B - 08C0CAE4-ECB7-4B15-898F-32A43F6F5F4B</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
