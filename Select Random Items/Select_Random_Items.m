@@ -106,7 +106,7 @@
         // at the end of the list copy backwards from the input to the the output list.
         for (long i = 0; i < numberToSelect; i++)
         {
-            long index = [input count] - i;
+            long index = ([input count] - 1) - i;
             [returnArray addObject:[input objectAtIndex:index]];
         }
     }
