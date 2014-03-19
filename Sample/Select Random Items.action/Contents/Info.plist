@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Automator</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryUtilities</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>numberToSelect</key>
+		<integer>100</integer>
+		<key>selectionLocation</key>
+		<integer>0</integer>
+		<key>selectionMethod</key>
+		<integer>0</integer>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string></string>
+		<key>AMDInput</key>
+		<string></string>
+		<key>AMDNote</key>
+		<string></string>
+		<key>AMDOptions</key>
+		<string></string>
+		<key>AMDRelatedActions</key>
+		<string></string>
+		<key>AMDRequires</key>
+		<string></string>
+		<key>AMDResult</key>
+		<string></string>
+		<key>AMDSummary</key>
+		<string>Select a random number of items from a list.</string>
+		<key>AMDWebsite</key>
+		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Action</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>random</string>
+	</array>
+	<key>AMName</key>
+	<string>Select Random Items</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<key>Level</key>
+		<integer>0</integer>
+	</dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13C64</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Select Random Items</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.Select-Random-Items</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Select Random Items</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5B130a</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13C64</string>
+	<key>DTSDKName</key>
+	<string>macosx10.9</string>
+	<key>DTXcode</key>
+	<string>0510</string>
+	<key>DTXcodeBuild</key>
+	<string>5B130a</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014 Thomas Chester. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>Select_Random_Items</string>
+</dict>
+</plist>
