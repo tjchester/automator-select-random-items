@@ -116,7 +116,11 @@
 
 - (long)convertToNumber:(long)thisPercentage ofTotal:(long)value
 {
-    return ceil((thisPercentage * value) / 100.00);
+    long convertedAmount = ceil((thisPercentage * value) / 100.00);
+    
+    NSLog(@"%lu percent of %lu is %lu items.", thisPercentage, value, convertedAmount);
+    
+    return convertedAmount;
 }
 
 @end
